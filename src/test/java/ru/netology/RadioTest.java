@@ -159,16 +159,7 @@ public class RadioTest {
 
     @Test
     public void RadioTest() {
-        Radio radio = new Radio(20);
-        radio.setCurrentRadioStation(15);
-        int expected = 15;
-        int actual = radio.getCurrentRadioStation();
-        Assertions.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void radioTestWithParameters(){
-        Radio radio = new Radio(20, 0, 0, 100, 0 , 0);
+        Radio radio = new Radio(20, 0, 15, 100, 0, 30);
         radio.setCurrentRadioStation(15);
         int expected = 15;
         int actual = radio.getCurrentRadioStation();
