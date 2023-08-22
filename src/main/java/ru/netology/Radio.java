@@ -12,8 +12,9 @@ public class Radio {
         this.maxRadioStation = 9;
 
     }
-    public Radio(int currentRadioStation) {
-        this.maxRadioStation = currentRadioStation - 1;
+
+    public Radio(int maxRadioStation) {
+        this.maxRadioStation = maxRadioStation - 1;
     }
 
 
